@@ -72,3 +72,7 @@ mvn package
 ```
 
 The output JAR will be in `target/`. Minestom is a `provided` dependency so it won't be bundled.
+
+## Authors
+- Kohan Mathers
+- JGJ52
