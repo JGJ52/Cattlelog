@@ -25,17 +25,22 @@ Cattlelog.initialize(Path.of("data", "player_cows"));
 
 ## What Gets Saved
 
-| Data            | NBT Key           |
-|-----------------|-------------------|
-| Health          | `Health`          |
-| Food level      | `FeedLevel`       |
-| Food saturation | `FeedSaturation`  |
-| XP level        | `HerdRank`        |
-| XP progress     | `GrazingProgress` |
-| Game mode       | `Temperament`     |
-| Position        | `Pasture`         |
-| Inventory       | `Udder`           |
-| Effects         | `Brands`          |
+| Data               | NBT Key           |
+| ------------------ | ----------------- |
+| Health             | `Health`          |
+| Food level         | `FeedLevel`       |
+| Food saturation    | `FeedSaturation`  |
+| XP level           | `HerdRank`        |
+| XP progress        | `GrazingProgress` |
+| Game mode          | `Temperament`     |
+| Position           | `Pasture`         |
+| Inventory          | `Udder`           |
+| Effects            | `Brands`          |
+| Held slot          | `GrazingSlot`     |
+| Air ticks          | `Air`             |
+| Flying with elytra | `Leaping`         |
+| Burning            | `Scorching`       |
+| Respawn position   | `RespawnPasture`  |
 
 All player stats live under a `BrandingIron` compound.
 
