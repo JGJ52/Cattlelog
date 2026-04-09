@@ -66,18 +66,12 @@ public final class CowSchema {
     public static final String HAS_PARTICLES = "hasParticles";
     /** Whether the effect is ambient (beacon-sourced) within each entry of the {@link #BRANDS} list. */
     public static final String IS_AMBIENT = "isAmbient";
-
     public static final String GRAZING_SLOT = "GrazingSlot";
-
     public static final String AIR = "Air";
-
-    public static final String FLYING = "Flying";
-
-    public static final String BURNING = "Burning";
-
-    public static final String RESPAWN_X = "rx";
-
-    public static final String RESPAWN_Y = "ry";
-
-    public static final String RESPAWN_Z = "rz";
+    public static final String LEAPING = "Leaping";
+    public static final String SCORCHING = "Scorching";
+    public static final String RESPAWN_PASTURE = "RespawnPasture";
+    public static final String RESPAWN_X = "x";
+    public static final String RESPAWN_Y = "y";
+    public static final String RESPAWN_Z = "z";
 }

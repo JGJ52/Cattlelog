@@ -47,8 +47,8 @@ public final class PlayerDataSerializer {
                 .putString(CowSchema.GAME_MODE, player.getGameMode().name())
                 .putByte(CowSchema.GRAZING_SLOT, player.getHeldSlot())
                 .putInt(CowSchema.AIR, player.getEntityMeta().getAirTicks())
-                .putBoolean(CowSchema.FLYING, player.getEntityMeta().isFlyingWithElytra())
-                .putInt(CowSchema.BURNING, player.getFireTicks())
+                .putBoolean(CowSchema.LEAPING, player.getEntityMeta().isFlyingWithElytra())
+                .putInt(CowSchema.SCORCHING, player.getFireTicks())
                 .build();
     }
 

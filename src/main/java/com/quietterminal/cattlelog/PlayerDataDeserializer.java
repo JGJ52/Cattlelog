@@ -61,9 +61,9 @@ public final class PlayerDataDeserializer {
         player.setLevel(branding.getInt(CowSchema.LEVEL, 0));
         player.setExp(branding.getFloat(CowSchema.EXP, 0.0f));
         player.setHeldItemSlot(branding.getByte(CowSchema.GRAZING_SLOT, (byte) 1));
-        player.setFireTicks(branding.getInt(CowSchema.BURNING, 0));
+        player.setFireTicks(branding.getInt(CowSchema.SCORCHING, 0));
         player.getEntityMeta().setAirTicks(branding.getInt(CowSchema.AIR, 300));
-        player.getEntityMeta().setFlyingWithElytra(branding.getBoolean(CowSchema.FLYING, false));
+        player.getEntityMeta().setFlyingWithElytra(branding.getBoolean(CowSchema.LEAPING, false));
 
         String gameModeName = branding.getString(CowSchema.GAME_MODE, "SURVIVAL");
         try {
